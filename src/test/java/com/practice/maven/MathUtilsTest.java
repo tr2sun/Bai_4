@@ -12,7 +12,7 @@ class MathUtilsTest {
     }
     @Test
     void testFilePath(){
-        Path path = Path.of("data\\intput.txt");
+        Path path = Path.of("data","intput.txt");
 
         assertEquals("intput.txt",path.getFileName().toString());
     }
